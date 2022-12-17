@@ -1,14 +1,15 @@
-import { Navbar } from 'flowbite-react';
+import { Button, Navbar } from 'flowbite-react';
+import Link from 'next/link';
 import React from 'react';
 
 const nav = () => {
     return (
-        <div>
-        <Navbar
+        <div >
+        <Navbar className='bg-violet-600'
 fluid={true}
 rounded={true}
 >
-<Navbar.Brand href="https://flowbite.com/">
+<Navbar.Brand  href="/">
 <img className='w-20' src="https://i.ibb.co/NS834Lr/93191-click.gif" alt="" />
 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
   Flowbite
@@ -16,24 +17,32 @@ rounded={true}
 </Navbar.Brand>
 <Navbar.Toggle />
 <Navbar.Collapse>
-<Navbar.Link
+<Link
   href="/home"
   active={true}
 >
+
   Home
-</Navbar.Link>
-<Navbar.Link href="/world">
+</Link>
+
+<Link href='/home'>
+<Button className='text-red-400'>
+   go
+</Button>
+
+</Link>
+<Link href="/world">
   World
-</Navbar.Link>
-<Navbar.Link href="/world">
+</Link>
+<Link  href="/world">
  Local
-</Navbar.Link>
-<Navbar.Link href="/world">
+</Link>
+<Link href="/world">
   Cricket
-</Navbar.Link>
-<Navbar.Link href="/world">
+</Link>
+<Link href="/world">
   top News
-</Navbar.Link>
+</Link>
 </Navbar.Collapse>
 </Navbar>
     </div>
