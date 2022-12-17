@@ -14,7 +14,7 @@ export default function Home() {
     <div className=''>
     <Nav></Nav>
     </div>
-    <div className=" grid grid-cols-2 my-16 gap-4">
+    <div className=" grid lg:grid-cols-2 my-16 gap-4 ">
         <div className="max-w-x l col-span-">
           <Card imgSrc="https://www.jugantor.com/assets/news_photos/2022/12/17/image-626029-1671276602.jpg">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -22,7 +22,7 @@ export default function Home() {
             </h5>
           </Card>
         </div>
-        <div className="grid grid-cols-4 gap-2">
+        <div className="grid lg:grid-cols-4 gap-2">
           <div className="max-w-xl">
             <Card imgSrc="https://www.jugantor.com/assets/news_photos/2022/12/17/image-626029-1671276602.jpg">
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </div>
       {/* next section  */}
-      <div className="grid grid-cols-5 gap-4 my-4">
+      <div className="grid lg:grid-cols-5 gap-4 my-4">
         <div className="">
           <Card href="#">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
