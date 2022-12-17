@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-  <div>
+  <div className=''>
     <div className=''>
     <Nav></Nav>
     </div>
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </div>
       {/* next section  */}
-      <div className="grid grid-cols-5 gap-4">
+      <div className="grid grid-cols-5 gap-4 my-4">
         <div className="">
           <Card href="#">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
