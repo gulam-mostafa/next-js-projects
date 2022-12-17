@@ -17,21 +17,21 @@ rounded={true}
 <Navbar.Toggle />
 <Navbar.Collapse>
 <Navbar.Link
-  href="/navbars"
+  href="/home"
   active={true}
 >
   Home
 </Navbar.Link>
-<Navbar.Link href="/navbars">
+<Navbar.Link href="/world">
   World
 </Navbar.Link>
-<Navbar.Link href="/navbars">
+<Navbar.Link href="/world">
  Local
 </Navbar.Link>
-<Navbar.Link href="/navbars">
+<Navbar.Link href="/world">
   Cricket
 </Navbar.Link>
-<Navbar.Link href="/navbars">
+<Navbar.Link href="/world">
   top News
 </Navbar.Link>
 </Navbar.Collapse>
