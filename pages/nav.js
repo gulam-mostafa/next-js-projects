@@ -12,7 +12,7 @@ rounded={true}
 <Navbar.Brand  href="/">
 <img className='w-20' src="https://i.ibb.co/NS834Lr/93191-click.gif" alt="" />
 <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-  Flowbite
+  Test News
 </span>
 </Navbar.Brand>
 <Navbar.Toggle />
