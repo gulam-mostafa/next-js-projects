@@ -12,7 +12,7 @@ export default function Home() {
   return (
   <div className=''>
     <div className=''>
-    <Nav></Nav>
+  
     </div>
     <div className=" grid lg:grid-cols-2 my-16 gap-4 ">
         <div className="max-w-x l col-span-">
