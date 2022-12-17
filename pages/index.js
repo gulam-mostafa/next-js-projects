@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import { Button, Card } from 'flowbite-react'
 import Nav from './nav'
-import Footer from './footer1'
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -307,7 +307,7 @@ export default function Home() {
         </div>
       </div>
    
-   <Footer/>
+   
   </div>
   )
 }
