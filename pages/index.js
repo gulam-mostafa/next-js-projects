@@ -17,7 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            testing agg&nbsp;
+            for test projects at the moment&nbsp;
             <code className={styles.code}>pages/index.js</code>
           </p>
           <div>
