@@ -4,7 +4,7 @@ import React from 'react';
 
 const nav = () => {
     return (
-        <div >
+        <div className='text-lime-500' >
         <Navbar className='bg-violet-600'
 fluid={true}
 rounded={true}
