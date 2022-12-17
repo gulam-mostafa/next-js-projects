@@ -5,8 +5,12 @@ import Footer from './footer1'
 export default function App({ Component, pageProps }) {
 
  return <div className=''>
- <Nav/>
+<div className=''>
+<Nav/>
+</div>
+<div className='min-h-screen'>
 <Component {...pageProps} />
+</div>
 <Footer/>
 </div>
 
